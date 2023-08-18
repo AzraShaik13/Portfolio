@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  background-color: #f6efef;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: #000000;
+}
+.child-item > h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+.child-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact-btn {
+  padding: 10px;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 600;
+  border:2px solid #ef5133;
+}
+.text-container {
+  width: 50%;
+}
+.img-container {
+  width: 50%;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 100px;
+  background-color: #f6efef;
+}
+#Introduction > .main-container > .text-container > h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+#About {
+  padding: 50px 100px;
+}
+#About > h1 {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #999999;
+}
+#About > h2 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+#About > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.main-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color:#f6efef;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: #000000;
+}
+#Timeline {
+  padding: 15px 100px;
+  margin-top: 50px;
+  background-color: #f6efef;
+}
+#Timeline > h1 {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #999999;
+}
+#Timeline > h2 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+#Timeline > .parent-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.dot{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ef5133;
+  margin-left: 4px;
+  margin-top: 10px;
+}
+#Timeline>.parent-container>.child-item{
+  display: flex;
+  flex-direction: column !important;
+  gap: 18px;
+  align-items: flex-start;
+}
+
